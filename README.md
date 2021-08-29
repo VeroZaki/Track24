@@ -23,3 +23,6 @@ This project is an uptime monitoring RESTful API server which allows authorized 
 ## ERD System
 ![alt text](https://github.com/VeroZaki/Track24/blob/main/Diagrams/Track24%20ERD%20System.png)
 Chen's database notition made on microsoft visio.
+## Entites Relation Diagram
+![alt text](https://github.com/VeroZaki/Track24/blob/main/Diagrams/Entites%20relation%20diagram.png)
+Crow's Foot database notition made on microsoft visio.
