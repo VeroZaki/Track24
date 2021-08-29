@@ -27,6 +27,10 @@ Chen's database notition made on Microsoft Visio.
 ![alt text](https://github.com/VeroZaki/Track24/blob/main/Diagrams/Entites%20relation%20diagram.png)
 Crow's Foot database notition made on Microsoft Visio.
 
+# ScreenShots
+## Track24 Welcome View
+![alt text](https://github.com/VeroZaki/Track24/blob/main/Images/Track24%20Welcome%20View.png)
+
 # Dependencies
 ```
 "dependencies": {
