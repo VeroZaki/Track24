@@ -8,4 +8,10 @@ This project is an uptime monitoring RESTful API server which allows authorized 
 * Passwords are hashed and saved to the database as to make account more controlable and secure.
 
 ## 2. Users can create a check to monitor a given URL if it is up or down
-* The user can create a check to monitor a given URL if it is up or down. 
+* The user can create a check to monitor a given URL if it is up or down. Each user has his own list of checks and each check is unique for the user, where he can put the chech name he wants for the recent check and enter the website URL he wants to check.
+
+## Users can edit, pause, or delete their checks if needed.
+* The user can pause the check, resume the check and even stop it, so he can enter a new URL for a new check.
+
+## Users receive email alerts whenever down checks exceed the number of the threshold defined by the user.
+* The master e-mail (which sends the emails to the users is controllable (config file)
