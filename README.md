@@ -30,6 +30,12 @@ Crow's Foot database notition made on Microsoft Visio.
 # ScreenShots
 ## Track24 Welcome View
 ![alt text](https://github.com/VeroZaki/Track24/blob/main/Images/Track24%20Welcome%20View.png)
+## Email Verification
+![alt text](https://github.com/VeroZaki/Track24/blob/main/Images/Email%20Verification.PNG)
+## Website Down
+![alt text](https://github.com/VeroZaki/Track24/blob/main/Images/404.PNG)
+## Website Up
+![alt text](https://github.com/VeroZaki/Track24/blob/main/Images/200.PNG)
 
 # Dependencies
 ```
