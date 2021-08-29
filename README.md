@@ -28,7 +28,7 @@ Chen's database notition made on Microsoft Visio.
 Crow's Foot database notition made on Microsoft Visio.
 
 # Dependencies
-'''
+```
 "dependencies": {
     "axios": "^0.21.1",
     "bcrypt": "^5.0.1",
@@ -50,4 +50,4 @@ Crow's Foot database notition made on Microsoft Visio.
     "randomstring": "^1.2.1",
     "url": "^0.11.0"
   }
-'''
+```
