@@ -1,0 +1,88 @@
+<head>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<section class="vh-100" style="background-color: #eee;">
+    <div class="container h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-lg-12 col-xl-11">
+                <div class="card text-black" style="border-radius: 25px;">
+                    <div class="card-body p-md-5">
+                        <div class="row justify-content-center">
+                            <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
+
+                                <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">{{message}}</p>
+                                <form action="/check/CheckURL" method="post" class="mx-1 mx-md-4">
+
+                                    <div class="d-flex flex-row align-items-center mb-4">
+                                        <i class="fas fa-link fa-lg me-3 fa-fw"></i>
+
+                                        <div class="form-outline flex-fill mb-0">
+                                            <input type="url" class="form-control" name="url"
+                                                aria-describedby="basic-addon3" placeholder="URL" required>
+                                            <!--<label class="form-label" for="form3Example1c">Your Name</label>-->
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-row align-items-center mb-4">
+                                        <i class="fas fa-check-double fa-lg me-3 fa-fw"></i>
+                                        <div class="form-outline flex-fill mb-0">
+
+                                            <input type="text" class="form-control" name="checkname"
+                                                aria-describedby="basic-addon3" placeholder="check name" required>
+                                            <!--<label class="form-label" for="form3Example1c">Your Name</label>-->
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-row align-items-center mb-4">
+                                        <i class="fab fa-think-peaks fa-lg me-3 fa-fw"></i>
+                                        <div class="form-outline flex-fill mb-0">
+
+                                            <input type="text" class="form-control" name="threshold"
+                                                aria-describedby="basic-addon3" placeholder="Threshold" required>
+                                            <!--<label class="form-label" for="form3Example1c">Your Name</label>-->
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                                        <button type="submit" class="btn btn-primary btn-md center-block"
+                                            Style="width: 100px;">Check</button>
+                                    </div>
+                                </form>
+
+
+                                <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
+                                    <form action="/check/pause" class="mx-1 mx-md-3" method="post">
+                                        <button type="submit" class="btn btn-warning btn-md center-block"
+                                            Style="width: 100px;" id="pause">Pause</button>
+                                    </form>
+
+                                    <form action="/check/resume" class="mx-1 mx-md-1" method="post">
+                                        <button type="submit" class="btn btn-success btn-md center-block"
+                                            Style="width: 100px;" id="resume">Resume</button>
+                                    </form>
+
+                                    <form action="/check/stop" class="mx-1 mx-md-3" method="post">
+                                        <button type="submit" class="btn btn-danger btn-md center-block"
+                                            Style="width: 100px;" id="stop">Stop</button>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
+                                <div class="row d-flex justify-content-center align-items-center h-100">
+                                    <img src="https://i.pinimg.com/originals/ff/49/8a/ff498ac969f07241743559e6f527c400.jpg"
+                                        class="img-fluid" alt="Sample image">
+                                    <form action="/check/show" method="post">
+                                        <button type="submit" class="btn btn-primary btn-md center-block"
+                                            Style="width: 200px; float: right;" id="stop">See all checks</button>
+                                    </form>
+                                    <form action="/">
+                                        <button type="submit" class="btn btn-danger btn-md center-block"
+                                            Style="width: 200px; float: right;" id="stop">Log Out</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

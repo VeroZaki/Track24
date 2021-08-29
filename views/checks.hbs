@@ -1,0 +1,52 @@
+<head>
+    <link rel="stylesheet" href="stylesheets/check.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<section class="vh-100" style="background-color: #eee;">
+
+    <div class="container mt-5 px-2">
+        <div class="mb-2 d-flex justify-content-between align-items-center">
+            <div class="position-relative"> <span class="position-absolute search"><i class="fa fa-search"></i></span>
+                <input class="form-control w-100" placeholder="Search by order#, name..."> </div>
+            <div class="px-2"> <span>Filters <i class="fa fa-angle-down"></i></span> <i
+                    class="fa fa-ellipsis-h ms-3"></i> </div>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-responsive table-borderless">
+                <thead>
+                    <tr class="bg-light">
+                        <th scope="col" width="5%"><input class="form-check-input" type="checkbox"></th>
+                        <th scope="col" width="20%">Check Name</th>
+                        <th scope="col" width="40%">Url</th>
+                        <th scope="col" width="20%">Status</th>
+                        <th scope="col" class="text-end" width="20%"><span>Delete</span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#each checks as |check|}}
+                    <tr>
+                        <th scope="row"><input class="form-check-input" type="checkbox"></th>
+                        <td>{{check.checkname}}</td>
+                        <td>{{check.url}}</td>
+                        <td>{{check.statuscode}}</td>
+                        <!--<td>{{#if check.statuscode}}<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Ski_trail_rating_symbol-green_circle.svg/600px-Ski_trail_rating_symbol-green_circle.svg.png" width="25">
+                    {{else}} <img src="https://toppng.com/uploads/preview/red-circle-1155276042606ekqvli9k.png" width="25"> {{/if}}
+                    </td>-->
+                        <td>
+                            <form action="/check/delete/{{check.id}}" class="btn btn-danger btn-md center-block"
+                                Style="width: 100px;" method="post"><button type="submit">Delete</button></form>
+                        </td>
+                    </tr>
+                    {{/each}}
+
+                </tbody>
+            </table>
+
+            <form action="/check/back" class="mx-1 mx-md-3" method="post">
+                <button type="submit" class="btn btn-primary btn-md center-block" Style="width: 100px;"
+                    id="stop">Back</button>
+            </form>
+        </div>
+    </div>
+
+</section>
