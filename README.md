@@ -8,3 +8,4 @@ This project is an uptime monitoring RESTful API server which allows authorized 
 * Passwords are hashed and saved to the database as to make account more controlable and secure.
 
 ## 2. Users can create a check to monitor a given URL if it is up or down
+* The user can create a check to monitor a given URL if it is up or down. 
