@@ -18,3 +18,7 @@ This project is an uptime monitoring RESTful API server which allows authorized 
 
 ## 5. Users can check thier list of checks and can delete any check if he want
 * The emails is sent throw SMTP Protocol and can send to any domain user side (gmail, yahoo, hotmail, etc.)
+
+# Diagrams
+## ERD System
+![alt text](https://github.com/VeroZaki/Track24/blob/main/Diagrams/Track24%20ERD%20System.png)
