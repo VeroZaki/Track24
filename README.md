@@ -20,10 +20,10 @@ This project is an uptime monitoring RESTful API server which allows authorized 
 * The emails is sent throw SMTP Protocol and can send to any domain user side (gmail, yahoo, hotmail, etc.)
 
 # Diagrams
-## ERD System
+## Entites Relation Diagram by Chen's
 ![alt text](https://github.com/VeroZaki/Track24/blob/main/Diagrams/Track24%20ERD.png)
 Chen's database notition made on Microsoft Visio.
-## Entites Relation Diagram
+## Entites Relation Diagram by Crow's Foot
 ![alt text](https://github.com/VeroZaki/Track24/blob/main/Diagrams/Entites%20relation%20diagram.png)
 Crow's Foot database notition made on Microsoft Visio.
 
