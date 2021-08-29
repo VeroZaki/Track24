@@ -26,3 +26,4 @@ Chen's database notition made on Microsoft Visio.
 ## Entites Relation Diagram
 ![alt text](https://github.com/VeroZaki/Track24/blob/main/Diagrams/Entites%20relation%20diagram.png)
 Crow's Foot database notition made on Microsoft Visio.
+
